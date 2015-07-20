@@ -25,7 +25,7 @@ executable is `/usr/local/bin`.
 `make uninstall` will uninstall.
 
 `make clean` will clean your working directory of the executable, the
-ZIP, and any `.pyo` compiled Python files in `src`.
+ZIP, and any `*.py[co]` compiled Python files in `src` or `test`.
 
 `src/header` is the header for the self-contained executable; it merely
 specifies a shebang for the Python interpreter.
